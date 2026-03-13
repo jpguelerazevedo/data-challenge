@@ -14,7 +14,7 @@ def retrieve_data(product_code=None, store_code=None, date=None):
         print("Erro: Não foi possível conectar ao banco de dados.")
         return pd.DataFrame()
         
-    query = "SELECT * FROM `looqbox-challenge`.data_product_sales WHERE 1=1"
+    query = f"SELECT * FROM data_product_sales WHERE 1=1"
     params = []
     
     if product_code is not None:

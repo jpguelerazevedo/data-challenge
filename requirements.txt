@@ -3,3 +3,4 @@ mysql-connector-python
 matplotlib
 seaborn
 python-dotenv
+tabulate
