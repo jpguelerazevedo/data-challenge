@@ -1,0 +1,11 @@
+SELECT 
+    c.BUSINESS_NAME,
+    SUM(s.SALES_VALUE) AS TOTAL_SALES
+FROM 
+    data_store_sales s
+JOIN 
+    data_store_cad c ON s.STORE_CODE = c.STORE_CODE
+WHERE 
+    s.DATE BETWEEN '2019-01-01' AND '2019-03-31'
+GROUP BY 
+    c.BUSINESS_NAME;
