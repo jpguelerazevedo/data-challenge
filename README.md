@@ -44,7 +44,8 @@ DB_NAME= #Nome do banco de dados
 ---
 
 ### 📝 Respostas do Teste de SQL (Base)
-As queries referentes às 3 primeiras perguntas de "SQL test" estão disponíveis dentro da pasta `tests/` na raiz do projeto (`testSQL_1.txt`, `testSQL_2.txt` e `testSQL_3.txt`). Elas estão prontas para serem copiadas e executadas diretamente em qualquer cliente MySQL apontando para o banco do desafio.
+As queries referentes às 3 primeiras perguntas de "SQL test" estão disponíveis dentro da pasta `tests/` na raiz do projeto (`testSQL_1.txt`, `testSQL_2.txt` e `testSQL_3.txt`).
+> **Aviso Importante:** Para utilizar e testar essas queries, é rigorosamente necessário possuir uma ferramenta/cliente de SGBD (como DBeaver, MySQL Workbench, VS Code Database Client, ou Terminal do MySQL) e **estar previamente conectado ao servidor remoto** utilizando exatamente as credenciais de banco de dados fornecidas pelo recrutador no e-mail do desafio. Selecione o schema `looqbox_challenge` antes de executar as consultas.
 
 ## 🚀 Como Executar os Cases
 
