@@ -44,7 +44,7 @@ DB_NAME= #Nome do banco de dados
 ---
 
 ### 📝 Respostas do Teste de SQL (Base)
-*As queries referentes às 3 primeiras perguntas de "SQL test" estão disponíveis dentro da pasta `tests/` na raiz do projeto (`testSQL_1.txt`, `testSQL_2.txt` e `testSQL_3.txt`). Elas estão prontas para serem copiadas e executadas diretamente em qualquer cliente MySQL apontando para o banco do desafio.*
+As queries referentes às 3 primeiras perguntas de "SQL test" estão disponíveis dentro da pasta `tests/` na raiz do projeto (`testSQL_1.txt`, `testSQL_2.txt` e `testSQL_3.txt`). Elas estão prontas para serem copiadas e executadas diretamente em qualquer cliente MySQL apontando para o banco do desafio.
 
 ## 🚀 Como Executar os Cases
 
