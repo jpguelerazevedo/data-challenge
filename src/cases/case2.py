@@ -2,7 +2,6 @@ import pandas as pd
 import warnings
 from src.config import get_connection
 
-# Suprimindo o aviso do Pandas relacionado ao SQLAlchemy
 warnings.filterwarnings('ignore', message='.*pandas only supports SQLAlchemy.*')
 
 def run_case2():
